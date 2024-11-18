@@ -153,10 +153,10 @@ export const RightBar = () => {
           <LeaderboardRankSection />
         ) : null}
         <DailyQuestsSection />
-        <XpProgressSection />
-        {!loggedIn && (
+        {/* <XpProgressSection /> */}
+        {/* {!loggedIn && (
           <CreateAProfileSection setLoginScreenState={setLoginScreenState} />
-        )}
+        )} */}
       </aside>
       <LoginScreen
         loginScreenState={loginScreenState}
