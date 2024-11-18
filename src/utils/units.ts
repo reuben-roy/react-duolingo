@@ -49,7 +49,7 @@ export const units: readonly Unit[] = [
     borderColor: "border-[#a568cc]",
     tiles: [
       { type: "fast-forward", description: "Get around in a city" },
-      { type: "dumbbell", description: "Personalized practice" },
+      { type: "dumbbell", description: "Workout" },
       { type: "book", description: "One thing" },
       { type: "treasure" },
       { type: "star", description: "Get around in a city" },

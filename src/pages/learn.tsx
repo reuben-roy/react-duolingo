@@ -368,11 +368,11 @@ const UnitSection = ({ unit }: { unit: Unit }): JSX.Element => {
                       >
                         {tile.type === "fast-forward" && status === "LOCKED" ? (
                           <HoverLabel
-                            text="Jump here?"
+                            text="Hydrate"
                             textColor={unit.textColor}
                           />
                         ) : selectedTile !== i && status === "ACTIVE" ? (
-                          <HoverLabel text="Start" textColor={unit.textColor} />
+                          <HoverLabel text="Workout" textColor={unit.textColor} />
                         ) : null}
                         <LessonCompletionSvg
                           lessonsCompleted={lessonsCompleted}
@@ -448,7 +448,7 @@ const UnitSection = ({ unit }: { unit: Unit }): JSX.Element => {
                       return tile.description;
                     case "fast-forward":
                       return status === "LOCKED"
-                        ? "Jump here?"
+                        ? "Hydrate"
                         : tile.description;
                     case "trophy":
                       return `Unit ${unit.unitNumber} review`;

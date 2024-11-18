@@ -23,7 +23,11 @@ const Home: NextPage = () => {
         <div>
           <p className="mb-6 max-w-[600px] text-center text-5xl font-bold md:mb-12">
             {/* Your personal schedule helper */}
-            Power Through! Party After!
+            Power Through!
+          </p>
+          <p className="mb-6 max-w-[600px] text-center text-5xl font-bold md:mb-12">
+            {/* Your personal schedule helper */}
+            Party After!
           </p>
           <div className="mx-auto mt-4 flex w-fit flex-col items-center gap-3">
             <Link

@@ -18,6 +18,7 @@ import { Flag } from "./Flag";
 import type { LoginScreenState } from "./LoginScreen";
 import { LoginScreen } from "./LoginScreen";
 import { useLeaderboardRank } from "~/hooks/useLeaderboard";
+import BasicDateCalendar from "./DateCalendar";
 
 export const RightBar = () => {
   const loggedIn = useBoundStore((x) => x.loggedIn);
@@ -223,7 +224,8 @@ const DailyQuestsSection = () => {
   const xpToday = useBoundStore((x) => x.xpToday());
   const goalXp = useBoundStore((x) => x.goalXp);
   return (
-    <article className="flex flex-col gap-5 rounded-2xl border-2 border-gray-200 p-6 font-bold text-gray-700">
+    <div>
+      <article className="flex flex-col gap-5 rounded-2xl border-2 border-gray-200 p-6 font-bold text-gray-700">
       <h2 className="text-xl">Daily Quests</h2>
       <div className="flex items-center gap-4">
         <LightningProgressSvg />
@@ -249,6 +251,10 @@ const DailyQuestsSection = () => {
         </div>
       </div>
     </article>
+
+    </div>
+    
+    
   );
 };
 
