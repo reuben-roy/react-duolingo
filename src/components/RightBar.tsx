@@ -40,7 +40,7 @@ export const RightBar = () => {
     <>
       <aside className="sticky top-0 hidden w-96 flex-col gap-6 self-start sm:flex">
         <article className="my-6 flex justify-between gap-4">
-          <div
+          {/* <div
             className="relative flex cursor-default items-center gap-2 rounded-xl p-3 font-bold uppercase text-gray-500 hover:bg-gray-100"
             onMouseEnter={() => setLanguagesShown(true)}
             onMouseLeave={() => setLanguagesShown(false)}
@@ -75,8 +75,8 @@ export const RightBar = () => {
                 <span className="text-gray-600">Add new course</span>
               </Link>
             </div>
-          </div>
-          <span
+          </div> */}
+          {/* <span
             className="relative flex items-center gap-2 rounded-xl p-3 font-bold text-orange-500 hover:bg-gray-100"
             onMouseEnter={() => setStreakShown(true)}
             onMouseLeave={() => {
@@ -111,8 +111,8 @@ export const RightBar = () => {
               </p>
               <Calendar now={now} setNow={setNow} />
             </div>
-          </span>
-          <span
+          </span> */}
+          {/* <span
             className="relative flex items-center gap-2 rounded-xl p-3 font-bold text-red-500 hover:bg-gray-100"
             onMouseEnter={() => setGemsShown(true)}
             onMouseLeave={() => setGemsShown(false)}
@@ -145,7 +145,7 @@ export const RightBar = () => {
                 </Link>
               </div>
             </div>
-          </span>
+          </span> */}
         </article>
         {loggedIn && lessonsCompleted < 10 ? (
           <UnlockLeaderboardsSection />

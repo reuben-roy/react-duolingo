@@ -1,14 +1,14 @@
 export type Language = (typeof languages)[number];
 
 const languages = [
-  {
-    name: "Arabic",
-    nativeName: "العربية",
-    viewBox: "0 2178 82 66",
-    code: "ar",
-  },
-  { name: "Bengali", nativeName: "বাংলা", viewBox: "0 1914 82 66", code: "bn" },
-  { name: "Czech", nativeName: "Čeština", viewBox: "0 1848 82 66", code: "cs" },
+  // {
+  //   name: "Arabic",
+  //   nativeName: "العربية",
+  //   viewBox: "0 2178 82 66",
+  //   code: "ar",
+  // },
+  // { name: "Bengali", nativeName: "বাংলা", viewBox: "0 1914 82 66", code: "bn" },
+  // { name: "Czech", nativeName: "Čeština", viewBox: "0 1848 82 66", code: "cs" },
   { name: "German", nativeName: "Deutsch", viewBox: "0 198 82 66", code: "de" },
   { name: "Greek", nativeName: "Ελληνικά", viewBox: "0 924 82 66", code: "el" },
   { name: "English", nativeName: "English", viewBox: "0 0 82 66", code: "en" },
@@ -20,18 +20,18 @@ const languages = [
     code: "fr",
   },
   { name: "Hindi", nativeName: "हिंदी", viewBox: "0 1914 82 66", code: "hi" },
-  {
-    name: "Hungarian",
-    nativeName: "Magyar",
-    viewBox: "0 1584 82 66",
-    code: "hu",
-  },
-  {
-    name: "Indonesian",
-    nativeName: "Bahasa Indonesia",
-    viewBox: "0 1980 82 66",
-    code: "id",
-  },
+  // {
+  //   name: "Hungarian",
+  //   nativeName: "Magyar",
+  //   viewBox: "0 1584 82 66",
+  //   code: "hu",
+  // },
+  // {
+  //   name: "Indonesian",
+  //   nativeName: "Bahasa Indonesia",
+  //   viewBox: "0 1980 82 66",
+  //   code: "id",
+  // },
   {
     name: "Italian",
     nativeName: "Italiano",
@@ -58,25 +58,25 @@ const languages = [
     viewBox: "0 594 82 66",
     code: "pt",
   },
-  {
-    name: "Romanian",
-    nativeName: "Română",
-    viewBox: "0 1386 82 66",
-    code: "ro",
-  },
+  // {
+  //   name: "Romanian",
+  //   nativeName: "Română",
+  //   viewBox: "0 1386 82 66",
+  //   code: "ro",
+  // },
   {
     name: "Russian",
     nativeName: "Русский",
     viewBox: "0 528 82 66",
     code: "ru",
   },
-  { name: "Thai", nativeName: "ภาษาไทย", viewBox: "0 2310 82 66", code: "th" },
-  {
-    name: "Tagalog",
-    nativeName: "Tagalog",
-    viewBox: "0 3036 82 66",
-    code: "tl",
-  },
+  // { name: "Thai", nativeName: "ภาษาไทย", viewBox: "0 2310 82 66", code: "th" },
+  // {
+  //   name: "Tagalog",
+  //   nativeName: "Tagalog",
+  //   viewBox: "0 3036 82 66",
+  //   code: "tl",
+  // },
   { name: "Turkish", nativeName: "Türkçe", viewBox: "0 660 82 66", code: "tr" },
   {
     name: "Ukrainian",

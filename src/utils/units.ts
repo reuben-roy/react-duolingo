@@ -18,9 +18,9 @@ export type TileType = Tile["type"];
 
 export const units: readonly Unit[] = [
   {
-    unitNumber: 1,
-    description: "Today's Schedule",
-    backgroundColor: "bg-[#58cc02]",
+    unitNumber: "Yesterday",
+    description: "Yesterday's Schedule",
+    backgroundColor: "bg-[#40bb02]",
     textColor: "text-[#58cc02]",
     borderColor: "border-[#46a302]",
     tiles: [
@@ -42,8 +42,8 @@ export const units: readonly Unit[] = [
     ],
   },
   {
-    unitNumber: 2,
-    description: "Get around in a city",
+    unitNumber: 'Today',
+    description: "Today's Schedule",
     backgroundColor: "bg-[#ce82ff]",
     textColor: "text-[#ce82ff]",
     borderColor: "border-[#a568cc]",
@@ -62,8 +62,8 @@ export const units: readonly Unit[] = [
     ],
   },
   {
-    unitNumber: 3,
-    description: "Order food and drink",
+    unitNumber: 'Tomorrow',
+    description: "Tomorrow's Schedule",
     backgroundColor: "bg-[#00cd9c]",
     textColor: "text-[#00cd9c]",
     borderColor: "border-[#00a47d]",

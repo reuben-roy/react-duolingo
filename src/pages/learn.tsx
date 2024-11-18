@@ -11,7 +11,7 @@ import {
   GoldenDumbbellSvg,
   GoldenTreasureSvg,
   GoldenTrophySvg,
-  GuidebookSvg,
+  // GuidebookSvg,
   LessonCompletionSvg0,
   LessonCompletionSvg1,
   LessonCompletionSvg2,
@@ -626,10 +626,10 @@ const UnitHeader = ({
     >
       <header className="flex items-center justify-between gap-4 p-4">
         <div className="flex flex-col gap-1">
-          <h2 className="text-2xl font-bold">Unit {unitNumber}</h2>
+          <h2 className="text-2xl font-bold">{unitNumber}</h2>
           <p className="text-lg">{description}</p>
         </div>
-        <Link
+        {/* <Link
           href={`https://duolingo.com/guidebook/${language.code}/${unitNumber}`}
           className={[
             "flex items-center gap-3 rounded-2xl border-2 border-b-4 p-3 transition hover:text-gray-100",
@@ -640,7 +640,7 @@ const UnitHeader = ({
           <span className="sr-only font-bold uppercase lg:not-sr-only">
             Guidebook
           </span>
-        </Link>
+        </Link> */}
       </header>
     </article>
   );

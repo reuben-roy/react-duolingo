@@ -19,7 +19,7 @@ const Register: NextPage = () => {
       <LanguageHeader />
       <div className="container flex grow flex-col items-center justify-center gap-20 px-4 py-16">
         <h1 className="mt-20 text-center text-3xl font-extrabold tracking-tight text-white">
-          I want to learn...
+          Pick Daily Tasks...
         </h1>
         <section className="mx-auto grid w-full max-w-5xl grow grid-cols-1 flex-col gap-x-2 gap-y-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {languages.map((language) => (
@@ -31,8 +31,8 @@ const Register: NextPage = () => {
               }
               onClick={() => setLanguage(language)}
             >
-              <Flag language={language} />
-              <span>{language.name}</span>
+              <Flag language={'english'} />
+              {/* <span>{language.name}</span> */}
             </Link>
           ))}
         </section>
